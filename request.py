@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get('https://report.khconf.com/api.php/info', auth=('1ParadisN', 'Zatnktel21**'))
+r = requests.get('https://report.khconf.com/api.php/info', auth=('1ParadisN', 'pw'))
 
 Status_Code = r.status_code
 output = r.json()
